@@ -64,6 +64,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="#sim-sync" className="hover:text-cyan-300 transition-colors">
+                  {t('navSimSync')}
+                </a>
+              </li>
+              <li>
                 <a href="#privacy" className="hover:text-violet-400 transition-colors">
                   {t('navPrivacy')}
                 </a>

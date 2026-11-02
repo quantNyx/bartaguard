@@ -9,6 +9,7 @@ import SampleScenarios from '@/components/SampleScenarios';
 import HowItWorks from '@/components/HowItWorks';
 import BangladeshScamGuide from '@/components/BangladeshScamGuide';
 import Features from '@/components/Features';
+import SimSyncSection from '@/components/SimSyncSection';
 import PrivacyManifesto from '@/components/PrivacyManifesto';
 import Footer from '@/components/Footer';
 import { AnalysisResult } from '@/types/analysis';
@@ -102,6 +103,9 @@ export default function Home() {
 
         {/* Features Grid */}
         <Features />
+
+        {/* BartaGuard SIM & Mobile Sync (ভবিষ্যৎ পরিকল্পনা ও সিম সংযোগ) */}
+        <SimSyncSection />
 
         {/* Privacy & Security Manifesto */}
         <PrivacyManifesto />

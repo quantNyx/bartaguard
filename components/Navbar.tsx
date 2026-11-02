@@ -70,6 +70,13 @@ export default function Navbar() {
           >
             {t('navFeatures')}
           </a>
+          <a
+            href="#sim-sync"
+            className="text-sm font-medium text-cyan-300 transition-colors hover:text-cyan-200 flex items-center gap-1.5"
+          >
+            <span className="h-1.5 w-1.5 rounded-full bg-cyan-400 animate-pulse" />
+            {t('navSimSync')}
+          </a>
         </div>
 
         {/* Right Area: Buildathon Official Sticker + Language Switcher */}
@@ -197,6 +204,14 @@ export default function Navbar() {
               className="rounded-lg px-3 py-2 text-sm font-medium text-slate-200 hover:bg-slate-800"
             >
               {t('navFeatures')}
+            </a>
+            <a
+              href="#sim-sync"
+              onClick={() => setMobileMenuOpen(false)}
+              className="rounded-lg px-3 py-2 text-sm font-medium text-cyan-300 hover:bg-slate-800 flex items-center gap-1.5"
+            >
+              <span className="h-1.5 w-1.5 rounded-full bg-cyan-400 animate-pulse" />
+              {t('navSimSync')}
             </a>
             <a
               href="#scanner"

@@ -25,6 +25,7 @@ const translations: Record<Language, Record<string, string>> = {
     navScenarios: 'নমুনা পরীক্ষা',
     navGuide: 'স্ক্যাম গাইড',
     navFeatures: 'বৈশিষ্ট্য',
+    navSimSync: 'সিম সংযোগ',
     navPrivacy: 'প্রাইভেসি',
     buildathonBadge: 'অফিসিয়াল এআইগনাইট বিল্ডাথন ২০২৬ প্রকল্প',
 
@@ -129,6 +130,25 @@ const translations: Record<Language, Record<string, string>> = {
     privacyP1: 'বার্তাগার্ড আপনার সাবমিট করা মেসেজ বা আপলোডকৃত স্ক্রিনশট ডাটাবেজে স্থায়ীভাবে সংরক্ষণ করে না।',
     privacyP2: 'বিশ্লেষণ সম্পন্ন হওয়ার পরপরই মেমোরি থেকে ডাটা মুছে ফেলা হয়। ব্যক্তিগত তথ্যের গোপনীয়তা শতভাগ সুরক্ষিত।',
 
+    // SIM & Mobile Sync
+    simSyncBadge: 'ভবিষ্যৎ পরিকল্পনা ও মোবাইল ইঞ্জিনিয়ারিং',
+    simSyncTitle: 'BartaGuard SIM & Mobile Sync (ভবিষ্যৎ পরিকল্পনা ও সিম সংযোগ)',
+    simSyncSubtitle: 'কীভাবে মোবাইল অ্যাপের মাধ্যমে ফোনের সিম কার্ডে আসা প্রতিটি মেসেজ স্বয়ংক্রিয়ভাবে স্ক্যান হবে?',
+    simPillar1Title: '১. অ্যান্ড্রয়েড ব্যাকগ্রাউন্ড সার্ভিস (BroadcastReceiver)',
+    simPillar1Desc: 'অ্যাপ ব্যাকগ্রাউন্ডে থেকে ইনকামিং এসএমএস তাৎক্ষণিক এআই ইঞ্জিনে পাঠাবে এবং কোনো পিন চুরি বা ফিশিং লিংক পেলেই স্ক্রিনে সতর্কবার্তা পপআপ করবে।',
+    simPillar2Title: '২. হোয়াটসঅ্যাপ ও টেলিগ্রাম ফরওয়ার্ডিং সহকারী',
+    simPillar2Desc: 'অ্যাপ ইনস্টল না করেও যেকোনো সন্দেহজনক এসএমএস আমাদের অফিশিয়াল হোয়াটসঅ্যাপ হেল্পলাইন নম্বরে ফরওয়ার্ড করলেই ৩ সেকেন্ডে এআই রিপোর্ট পাওয়া যাবে।',
+    simPillar3Title: '৩. টেলিকম গেটওয়ে ও এমএনও পার্টনারশিপ (B2B/Gov)',
+    simPillar3Desc: 'গ্রামীনফোন, রবি ও বাংলালিংক গেটওয়ে লেভেলে ক্ষতিকর ও ফিশিং লিংকযুক্ত বাল্ক এসএমএস ব্যবহারকারীর ফোনে পৌঁছানোর আগেই ফিল্টার করা।',
+    simDemoTitle: 'লাইভ মোবাইল ইন্টারসেপশন সিমুলেটর',
+    simDemoDesc: 'সিম কার্ডে মেসেজ আসার সাথে সাথে কীভাবে রিয়েল-টাইম এআই গার্ড কাজ করবে তা পরীক্ষা করুন:',
+    simTestBtn: 'সিম এসএমএস সিমুলেট করুন',
+    simWaitlistTitle: 'অ্যান্ড্রয়েড বিটা টেস্টার হিসেবে যোগ দিন',
+    simWaitlistDesc: 'আমাদের অ্যান্ড্রয়েড অ্যাপ রিলিজের সাথে সাথে সবার আগে ব্যবহার করতে আপনার নম্বর দিন:',
+    simWaitlistInputPlaceholder: 'আপনার মোবাইল নম্বর লিখুন (যেমন: 017XXXXXXXX)',
+    simWaitlistBtn: 'বিটা অ্যাক্সেস নিন',
+    simWaitlistSuccess: 'ধন্যবাদ! আপনার নম্বর সফলভাবে তালিকাভুক্ত হয়েছে। বিটা রিলিজের সময় জানানো হবে।',
+
     // Footer
     footerDisclaimer: 'দাবিত্যাগ: বার্তাগার্ড একটি সহায়ক কৃত্রিম বুদ্ধিমত্তা টুল। এটি ব্যবহারকারীদের সতর্ক করতে সম্ভাব্য ঝুঁকি তুলে ধরে। কোনো আইনি বা নিশ্চিত আর্থিক প্রমাণের জন্য সংশ্লিষ্ট প্রতিষ্ঠানের অফিশিয়াল নম্বরে যোগাযোগ করুন।',
     builtFor: 'তৈরি করা হয়েছে Ostad Presents YUNet AIgnite Buildathon 2026 এর জন্য।'
@@ -146,6 +166,7 @@ const translations: Record<Language, Record<string, string>> = {
     navScenarios: 'Sample Tests',
     navGuide: 'Scam Guide',
     navFeatures: 'Features',
+    navSimSync: 'SIM Sync',
     navPrivacy: 'Privacy',
     buildathonBadge: 'Official AIgnite Buildathon 2026 Project',
 
@@ -249,6 +270,25 @@ const translations: Record<Language, Record<string, string>> = {
     privacySubheading: 'Zero retention. Your conversations belong only to you.',
     privacyP1: 'BartaGuard does not save or log your submitted messages or screenshots to any persistent database.',
     privacyP2: 'Data is processed ephemerally in server memory and discarded immediately after generation.',
+
+    // SIM & Mobile Sync
+    simSyncBadge: 'Product Architecture & Future Roadmap',
+    simSyncTitle: 'BartaGuard SIM & Mobile Sync',
+    simSyncSubtitle: 'How our upcoming native mobile app automatically intercepts and evaluates incoming SIM SMS in real time.',
+    simPillar1Title: '1. Android Background Receiver (BroadcastReceiver)',
+    simPillar1Desc: 'Native Android background service continuously listens to incoming SMS events and triggers instant lock-screen warnings on malicious solicitations.',
+    simPillar2Title: '2. WhatsApp & Telegram Forwarding Bot',
+    simPillar2Desc: 'Forward any suspicious SMS to our verified WhatsApp Business bot to receive an AI safety report in 3 seconds without installing an app.',
+    simPillar3Title: '3. Telecom Carrier Gateway Integration (B2B/Gov)',
+    simPillar3Desc: 'Partnering with MNOs (Grameenphone, Banglalink, Robi) to filter phishing URLs and fraudulent bulk SMS before delivery.',
+    simDemoTitle: 'Live Mobile Interception Simulator',
+    simDemoDesc: 'Experience how real-time SIM SMS background interception works on a smartphone:',
+    simTestBtn: 'Simulate Incoming SIM SMS',
+    simWaitlistTitle: 'Join Android Early Access Beta',
+    simWaitlistDesc: 'Be the first to test automatic SIM SMS protection on your Android device:',
+    simWaitlistInputPlaceholder: 'Enter your phone number (e.g. +880 17XXXXXXXX)',
+    simWaitlistBtn: 'Request Beta Access',
+    simWaitlistSuccess: 'Thank you! Your number has been registered for the early access beta.',
 
     // Footer
     footerDisclaimer: 'Disclaimer: BartaGuard is an assistive AI tool. It evaluates risk patterns to assist consumers. For official verification of financial accounts, contact your service provider directly.',

@@ -46,6 +46,10 @@ In Bangladesh, ordinary citizens, students, and elderly parents frequently recei
    - No messages or screenshots are persistently stored in any database. Processing is completely ephemeral.
 7. **One-Click Share & Export**:
    - Copy comprehensive formatted reports to clipboard for instant forwarding to family or community WhatsApp groups.
+8. **BartaGuard SIM & Mobile Sync (ভবিষ্যৎ পরিকল্পনা ও সিম সংযোগ)**:
+   - **Native Android Companion Service (`RECEIVE_SMS`)**: Background broadcast receiver that listens to incoming SIM SMS events and alerts the user on dangerous solicitations in real time.
+   - **WhatsApp & Telegram Forwarding Bot**: Forward unverified SMS directly to BartaGuard's WhatsApp business webhook for an instant 3-second report without app installation.
+   - **Telco / MNO Gateway Partnership**: High-volume SMPP carrier-grade filtering with Bangladeshi mobile operators (Grameenphone, Banglalink, Robi) to block deceptive campaigns at the network layer.
 
 ---
 
